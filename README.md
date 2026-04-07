@@ -225,11 +225,11 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:2.5rem 
 .ft-copy{font-size:.7rem;color:var(--dark5)}
 
 /* ── REVEAL ── */
-.reveal{opacity:0;transform:translateY(25px);transition:opacity .7s ease,transform .7s ease}
+.reveal{opacity:1;transform:none}
 .reveal.on{opacity:1;transform:none}
-.rl{opacity:0;transform:translateX(-25px);transition:opacity .7s ease,transform .7s ease}
+.rl{opacity:1;transform:none}
 .rl.on{opacity:1;transform:none}
-.rr{opacity:0;transform:translateX(25px);transition:opacity .7s ease,transform .7s ease}
+.rr{opacity:1;transform:none}
 .rr.on{opacity:1;transform:none}
 
 /* ── RESPONSIVE ── */
